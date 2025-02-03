@@ -1,8 +1,9 @@
-def EvenTest(number):
-    if number % 2 == 0:
-        return True
+def EvenTest():
+    NumberInput = input('Enter a number: ')
+    if int(NumberInput) % 2 == 0:
+        print('The number is even')
     else:
-        return False
+        print('The number is odd')
     
 
-EvenTest(4)
+EvenTest()
